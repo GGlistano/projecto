@@ -11,7 +11,7 @@ function VideoPage({ totalValue }: VideoPageProps) {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://scripts.converteai.net/9d93e4b2-3654-4bea-bda0-107c1328d520/players/69006ad100555d1efd2eca81/v4/player.js';
+    script.src = 'https://scripts.converteai.net/9d93e4b2-3654-4bea-bda0-107c1328d520/players/6900f7e324bb6d6db57759eb/v4/player.js';
     script.async = true;
     document.head.appendChild(script);
 
@@ -59,7 +59,7 @@ function VideoPage({ totalValue }: VideoPageProps) {
         <div className="relative bg-gray-900 rounded-3xl overflow-hidden shadow-2xl">
           <div className="w-full aspect-video">
             <vturb-smartplayer
-              id="vid-69006ad100555d1efd2eca81"
+              id="vid-6900f7e324bb6d6db57759eb"
               style={{ display: 'block', margin: '0 auto', width: '100%' }}
             />
           </div>
