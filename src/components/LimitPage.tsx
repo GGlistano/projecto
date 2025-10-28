@@ -18,12 +18,6 @@ function LimitPage({ totalValue, onContinue }: LimitPageProps) {
           <span className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-600">DA VEZ</span>
         </div>
 
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl p-4 mb-6 shadow-md">
-          <p className="text-sm sm:text-base text-gray-800 font-medium text-center">
-            ⚠️ <strong>Nota Importante:</strong> Os valores apresentados são meramente ilustrativos e não representam ganhos reais. Esta é apenas uma demonstração.
-          </p>
-        </div>
-
         <div className="space-y-3 sm:space-y-4">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">
             Limite Diário Atingido!

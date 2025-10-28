@@ -37,11 +37,6 @@ function WithdrawPage({ totalValue, onSubmit }: WithdrawPageProps) {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center px-6 py-12 relative">
       <div className="max-w-2xl w-full bg-white rounded-3xl shadow-xl p-8 md:p-12 space-y-8">
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl p-4 shadow-md mb-4">
-          <p className="text-sm sm:text-base text-gray-800 font-medium text-center">
-            ⚠️ <strong>Nota Importante:</strong> Os valores apresentados são meramente ilustrativos e não representam ganhos reais. Esta é apenas uma demonstração.
-          </p>
-        </div>
         <div className="text-center space-y-3">
           <h1 className="text-3xl md:text-4xl font-bold text-black">
             Solicitar Saque

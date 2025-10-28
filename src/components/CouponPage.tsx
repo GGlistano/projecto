@@ -87,12 +87,6 @@ function CouponPage({ userName, totalValue, currentCoupon, coupon, onNext }: Cou
       </div>
 
       <div className="max-w-3xl mx-auto px-4 sm:px-6 py-4 sm:py-8">
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl p-4 mb-6 shadow-md">
-          <p className="text-sm sm:text-base text-gray-800 font-medium text-center">
-            ⚠️ <strong>Nota Importante:</strong> Os valores apresentados são meramente ilustrativos e não representam ganhos reais. Esta é apenas uma demonstração.
-          </p>
-        </div>
-
         <div className="bg-white rounded-2xl shadow-lg p-4 sm:p-8 space-y-4 sm:space-y-6">
           <h2 className="text-xl sm:text-2xl font-bold text-green-600 text-center">
             NOVO CUPOM ENCONTRADO!

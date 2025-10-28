@@ -50,11 +50,6 @@ function VideoPage({ totalValue }: VideoPageProps) {
 
       {/* Main Content */}
       <div className="max-w-3xl mx-auto px-6 py-8 space-y-6">
-        <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-500 rounded-xl p-4 shadow-md">
-          <p className="text-sm sm:text-base text-gray-800 font-medium text-center">
-            ⚠️ <strong>Nota Importante:</strong> Os valores apresentados são meramente ilustrativos e não representam ganhos reais. Esta é apenas uma demonstração.
-          </p>
-        </div>
         {/* Video Container */}
         <div className="relative bg-gray-900 rounded-3xl overflow-hidden shadow-2xl">
           <div className="w-full aspect-video">
